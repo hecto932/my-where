@@ -1,0 +1,11 @@
+/home/hector/personal/my-where/bin/Debug/netcoreapp2.2/my-where.deps.json
+/home/hector/personal/my-where/bin/Debug/netcoreapp2.2/my-where.runtimeconfig.json
+/home/hector/personal/my-where/bin/Debug/netcoreapp2.2/my-where.runtimeconfig.dev.json
+/home/hector/personal/my-where/bin/Debug/netcoreapp2.2/my-where.dll
+/home/hector/personal/my-where/bin/Debug/netcoreapp2.2/my-where.pdb
+/home/hector/personal/my-where/obj/Debug/netcoreapp2.2/my-where.csprojAssemblyReference.cache
+/home/hector/personal/my-where/obj/Debug/netcoreapp2.2/my-where.csproj.CoreCompileInputs.cache
+/home/hector/personal/my-where/obj/Debug/netcoreapp2.2/my-where.AssemblyInfoInputs.cache
+/home/hector/personal/my-where/obj/Debug/netcoreapp2.2/my-where.AssemblyInfo.cs
+/home/hector/personal/my-where/obj/Debug/netcoreapp2.2/my-where.dll
+/home/hector/personal/my-where/obj/Debug/netcoreapp2.2/my-where.pdb
