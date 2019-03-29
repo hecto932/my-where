@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using my_where.Methods;
 
 namespace my_where
 {
@@ -8,18 +9,32 @@ namespace my_where
   {
     static void Main(string[] args)
     {
-      Console.WriteLine("Hello World!");
+			// Utilizando LINQ, generar una lista de los números del 1 al 1000.
+      var numberList = Enumerable.Range(1, 1000).ToList();
+      Console.WriteLine($"numberList created with {numberList.Count} int elements...");
 
-			// number list 1 to 1000
-      var listRandomNumbers = Enumerable.Range(1, 1000).ToList();
+			// Filtra la lista de números, tomando solo los que son pares
+			var evenList = numberList.Where(e => e % 2 == 0);
+      Console.WriteLine($"Filtering all the even numbers using where function from linq...");
 
-			// eventList
-			var eventList = listRandomNumbers.Where(e => e % 2 == 0);
+			// Imprime solo los 3 primeros números de la lista de valores pares. (debe mostrar 2,4,6)
+      Console.WriteLine($"Printing the first three numbers...");
+			printList(evenList, 3);
 
-			// print the first 3 numbers
-			for (int i = 0; i < 3; i++)
+      // A partir de este momento ya no puedes usar Where de LINQ;
+      // reemplázala por un extension method local equivalente en funcionalidad. i.e. numeros.Where(...) ahora debe leerse como numeros.MyWhere(...)
+			var evenListMyWhere = numberList.MyWhere(e => e % 2 == 0, 6);
+
+      // print the first 3 numbers
+			printList(evenListMyWhere);
+    }
+
+    private static void printList(IEnumerable<int> list, int limit = 0)
+    {
+      limit = limit == 0 ? list.Count() : limit;
+      for (int i = 0; i < limit; i++)
 			{
-					Console.WriteLine(eventList.ElementAt(i));
+					Console.WriteLine(list.ElementAt(i));
 			}
     }
   }
