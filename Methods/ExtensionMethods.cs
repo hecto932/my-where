@@ -18,6 +18,7 @@ namespace my_where.Methods
         }
       }
 
+      Console.WriteLine($"Filter applyed {result.Count} times...");
       return result;
     }
   }

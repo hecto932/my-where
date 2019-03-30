@@ -23,10 +23,12 @@ namespace my_where
 
       // A partir de este momento ya no puedes usar Where de LINQ;
       // reemplázala por un extension method local equivalente en funcionalidad. i.e. numeros.Where(...) ahora debe leerse como numeros.MyWhere(...)
+      // Dentro de la nueva implementación de MyWhere, haz un conteo de la cantidad de números sobre los cuales se ejecutó el filtro.
       var evenListMyWhere = numberList.MyWhere(e => e % 2 == 0);
 
       // print the first 3 numbers
       printList(evenListMyWhere);
+
     }
 
     private static void printList(IEnumerable<int> list, int limit = 0)
