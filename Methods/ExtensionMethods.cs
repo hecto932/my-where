@@ -9,8 +9,8 @@ namespace my_where.Methods
     public static IEnumerable<int> MyWhere(this IEnumerable<int> list, Func<int, bool> filter)
     {
       var result = new List<int>();
-      bool exit = false;
-      for (int i = 0; i < list.Count(); ++i)
+
+      for (int i = 0; i < list.Count() && result.Count < 6; ++i)
       {
         if (filter(list.ElementAt(i)))
         {
@@ -18,7 +18,6 @@ namespace my_where.Methods
         }
       }
 
-      //   Console.WriteLine($"MyWhere filter was applyed {count} times.");
       return result;
     }
   }
