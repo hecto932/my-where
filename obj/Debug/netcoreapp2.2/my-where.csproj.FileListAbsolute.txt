@@ -9,3 +9,14 @@
 /home/hector/personal/my-where/obj/Debug/netcoreapp2.2/my-where.AssemblyInfo.cs
 /home/hector/personal/my-where/obj/Debug/netcoreapp2.2/my-where.dll
 /home/hector/personal/my-where/obj/Debug/netcoreapp2.2/my-where.pdb
+C:\Users\Hector\personal\my-where\bin\Debug\netcoreapp2.2\my-where.deps.json
+C:\Users\Hector\personal\my-where\bin\Debug\netcoreapp2.2\my-where.runtimeconfig.json
+C:\Users\Hector\personal\my-where\bin\Debug\netcoreapp2.2\my-where.runtimeconfig.dev.json
+C:\Users\Hector\personal\my-where\bin\Debug\netcoreapp2.2\my-where.dll
+C:\Users\Hector\personal\my-where\bin\Debug\netcoreapp2.2\my-where.pdb
+C:\Users\Hector\personal\my-where\obj\Debug\netcoreapp2.2\my-where.csprojAssemblyReference.cache
+C:\Users\Hector\personal\my-where\obj\Debug\netcoreapp2.2\my-where.csproj.CoreCompileInputs.cache
+C:\Users\Hector\personal\my-where\obj\Debug\netcoreapp2.2\my-where.AssemblyInfoInputs.cache
+C:\Users\Hector\personal\my-where\obj\Debug\netcoreapp2.2\my-where.AssemblyInfo.cs
+C:\Users\Hector\personal\my-where\obj\Debug\netcoreapp2.2\my-where.dll
+C:\Users\Hector\personal\my-where\obj\Debug\netcoreapp2.2\my-where.pdb

@@ -9,16 +9,14 @@ namespace my_where.Methods
     public static IEnumerable<int> MyWhere(this IEnumerable<int> list, Func<int, bool> filter)
     {
       var result = new List<int>();
-
-      for (int i = 0; i < list.Count() && result.Count < 6; ++i)
+      
+      foreach (int n in list.Take(6).ToList())
       {
-        if (filter(list.ElementAt(i)))
-        {
-          result.Add(list.ElementAt(i));
-        }
+          if (filter(n)) {
+            result.Add(n);
+          }
       }
-
-      Console.WriteLine($"Filter applyed {result.Count} times...");
+      
       return result;
     }
   }
